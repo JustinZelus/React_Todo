@@ -1,0 +1,21 @@
+body {
+  padding: 5px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.removestrikethrough {
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: none;
+  color: black;
+}
+
+.in-active {
+  text-decoration: underline;
+  color: blue;
+}
