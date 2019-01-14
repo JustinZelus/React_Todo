@@ -1,6 +1,6 @@
 import React from "react";
 
-class FilterLink extends React.Component {
+class Footer extends React.Component {
   constructor(props) {
     super(props);
 
@@ -46,4 +46,4 @@ class FilterLink extends React.Component {
   }
 }
 
-export default FilterLink;
+export default Footer;

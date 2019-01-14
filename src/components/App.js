@@ -1,7 +1,7 @@
 import React from "react";
 import AddTodo from "./AddTodo";
 import TodoList from "./TodoList";
-import FilterLink from "./FilterLink";
+import Footer from "./Footer";
 
 class App extends React.Component {
   constructor(props) {
@@ -66,7 +66,7 @@ class App extends React.Component {
           todos={this.state.todos}
           filterText={this.state.filterText}
         />
-        <FilterLink
+        <Footer
           onFilterLinkChange={this.handleFilterLinkChange}
           filterText={this.state.filterText}
         />
